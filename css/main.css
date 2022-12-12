@@ -152,14 +152,15 @@ a {
 .contacts__item + .contacts__item {
   margin-left: 30px;
 }
+
 .contacts__icon {
   margin-right: 10px;
   fill: var(--primary-text-color);
 }
-.contacts:hover .contacts__icon {
+.contacts__link:hover .contacts__icon {
   fill: var(--accent-color);
 }
-.contacts:focus .contacts__icon {
+.contacts__link:focus .contacts__icon {
   fill: var(--accent-color);
 }
 
@@ -704,6 +705,9 @@ footer {
   border-radius: 50%;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal__btn:hover .modal__btn-icon, .modal__btn:focus .modal__btn-icon {
+  fill: var(--accent-color);
 }
 
 .form {
