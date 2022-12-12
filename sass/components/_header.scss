@@ -79,18 +79,18 @@
   &__item + &__item {
     margin-left: 30px;
   }
+}
 
-  &__icon {
-    margin-right: 10px;
-    fill: var(--primary-text-color);
+.contacts__icon {
+  margin-right: 10px;
+  fill: var(--primary-text-color);
 
-    .contacts:hover & {
-      fill: var(--accent-color);
-    }
+  .contacts__link:hover & {
+    fill: var(--accent-color);
+  }
 
-    .contacts:focus & {
-      fill: var(--accent-color);
-    }
+  .contacts__link:focus & {
+    fill: var(--accent-color);
   }
 }
 

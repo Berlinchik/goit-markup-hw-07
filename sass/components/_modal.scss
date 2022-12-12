@@ -50,6 +50,11 @@
     border-radius: 50%;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:hover .modal__btn-icon,
+    &:focus .modal__btn-icon {
+      fill: var(--accent-color);
+    }
   }
 }
 
